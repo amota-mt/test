@@ -4,7 +4,7 @@ class Hoge {
     if (hoge != null)
       System.out.println(hoge);
 	}
-	 private static void hoge(Object object, Class clazz, String[] excludeFields) {
+	 private static void hoge(Object object, Class<?> clazz, String[] excludeFields) {
 		 System.out.println("hgoe");
   ]
 }
